@@ -1,8 +1,8 @@
 pipeline{
     agent any
     environment{
-        DOCKER_SERVER = "073047198118.dkr.ecr.ap-south-1.amazonaws.com"
-        DOCKER_REPO = "073047198118.dkr.ecr.ap-south-1.amazonaws.com/django-todo"
+        DOCKER_SERVER = "112233445566.dkr.ecr.ap-south-1.amazonaws.com"
+        DOCKER_REPO = "112233445566.dkr.ecr.ap-south-1.amazonaws.com/django-todo"
         IMAGE_NAME = "${DOCKER_REPO}:${BUILD_NUMBER}"
     }
     stages{
